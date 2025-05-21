@@ -5,7 +5,7 @@ from pm4py.objects.log.obj import EventLog, Trace, Event
 from pm4py.objects.log.exporter.xes import exporter as xes_exporter
 
 # === Zufallsseed für Reproduzierbarkeit ===
-SEED = 42
+SEED = 84
 random.seed(SEED)
 
 # === Globale Parameter ===
